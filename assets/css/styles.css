@@ -108,6 +108,8 @@ footer {
   bottom: 15px;
 
   color: #004241;
+  font-size: 11px; 
+  text-align: center;
 }
 
 footer a:visited, 
