@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;  
+  margin: 0px;
+  padding: 0px;  
+
+  color: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+#preview-cards {
+  display: flex;
+
+  width: 920px;
+  height: 500px;  
+  margin-top: 41px;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.pc-card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+  width: 33.333%;
+  padding-left: 5%;
+}
+
+.pc-card img {
+  margin-top: 50px;
+}
+
+.pc-card h2 {
+  margin-top: 35px;
+  
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pc-card p {
+  width: 80%;
+  margin-top: 25px;
+
+  color: #ffffffbf;
+  line-height: 1.7rem;
+}
+
+.pc-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  width: 150px;
+  margin-top: 80px;
+  border-radius: 25px;
+  
+  background-color: #f2f2f2;
+  text-decoration: none;
+}
+
+.pc-sedans {
+  background-color: #e38826;
+}
+
+.pc-sedans a {
+  color: #e38826;
+}
+
+.pc-suvs {
+  background-color: #006970;
+}
+
+.pc-suvs a {
+  color: #006970;
+}
+
+.pc-luxury {
+  background-color: #004241;
+}
+
+.pc-luxury a {
+  color: #004241;
+}
+
+footer {
+  position: absolute;
+
+  bottom: 15px;
+
+  color: #004241;
+}
+
+footer a:visited, 
+footer a:link {
+  text-decoration: none;  
+  color: #004241;
+}
